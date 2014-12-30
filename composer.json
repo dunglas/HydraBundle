@@ -1,9 +1,9 @@
 {
     "name": "ml/hydra-bundle",
-    "type": "library",
-    "description": "JSON-LD Processor for PHP",
+    "type": "symfony-bundle",
+    "description": "Hydra support for Symfony",
     "keywords": [ "JSON-LD", "jsonld", "Hydra", "Web API", "Symfony", "Symfony2", "hypermedia", "REST" ],
-    "homepage": "http://www.markus-lanthaler.com/hydra/",
+    "homepage": "http://www.hydra-cg.com",
     "license": "MIT",
     "authors": [
         {
@@ -19,7 +19,7 @@
         "ext-json": "*",
         "ml/json-ld": "@dev",
         "doctrine/common": "~2.3",
-        "sensio/generator-bundle": "2.3.*",
+        "sensio/generator-bundle": "~2.3",
         "symfony/property-access": "~2.3"
     },
     "autoload": {
